@@ -7,7 +7,7 @@
   display: grid;
 
   grid-template-columns: 90px 290px auto 90px;
-  grid-template-rows: 40px 140px 140px  auto;
+  grid-template-rows: 45px 140px 140px  auto;
   background-color: #2f3e46;
   padding: 10px;
 }
