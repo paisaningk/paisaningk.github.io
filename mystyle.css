@@ -7,7 +7,7 @@
   display: grid;
 
   grid-template-columns: 90px 290px auto 90px;
-  grid-template-rows: 45px 140px 140px  auto;
+  grid-template-rows: 40px 140px 140px  auto;
   background-color: #2f3e46;
   padding: 10px;
 }
@@ -16,7 +16,7 @@
   background-color: #e9c46a;
   border: 5px solid #f4a261;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   color: #e76f51
 }
@@ -89,8 +89,8 @@
   border: 5px solid #f4a261;
   text-align: center;
   padding: 10px;
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 40px;
+  font-weight: bolder;
   color: #e76f51
 }
 .solo {
