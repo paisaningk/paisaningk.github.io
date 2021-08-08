@@ -39,7 +39,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: 90px 575px 560px 90px;
-  grid-template-rows: auto auto 300px 300px ;
+  grid-template-rows: auto auto 300px 300px 500px;
   background-color: #2f3e46;
   padding: 10px;
 }
@@ -75,6 +75,10 @@
   grid-row: 4/5;
 }
 
+.gif{
+  grid-column: 2/4;
+  grid-row: 5/6;
+}
 .grid-solo {
   display: grid;
 
