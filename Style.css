@@ -1,0 +1,187 @@
+/* Add a black background color to the top navigation */
+.header {
+    background-color: #050404;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.header a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.header a:hover {
+    background-color: #5c1116;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.header a.active {
+    background-color: #04AA6D;
+    color: #747474;
+}
+
+/* Home */
+.Home {
+    display: grid;
+    grid-template-columns: 10px auto auto 10px;
+    grid-template-rows: 10px auto 10px;
+    //background-color: #2f3e46;
+    padding: 10px;
+}
+.Home > div {
+    border: 5px solid #5c1116;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.HomePhoto {
+    grid-column : 2/3;
+    grid-row : 2/4;
+}
+
+.HomeText {
+    grid-column : 3/4;
+    grid-row : 2/4;
+    color: white;
+    padding: 20px;
+    line-height: 22px;
+}
+
+/* Contact */
+.Contact {
+    color: white;
+    padding: 10px;
+}
+
+.Contact > div {
+    border: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.PhotoContact {
+    margin-top: 10px;
+}
+
+.Contact ul {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.Contact ul li {
+    display: inline-block;
+}
+
+.Contact ul li {
+    padding-right: 0.6em;
+}
+
+.Contact ul li a:before {
+    padding-right: 0.3em;
+}
+
+/* Work */
+.Work {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: 10px auto  auto 10px;
+    padding: 10px;
+    color: white;
+}
+
+.Work > div {
+    border: 5px solid #5c1116;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.PhotoWork1 {
+    grid-column : 1/2;
+    grid-row : 2/3;
+    object-fit: cover;
+    margin-top: 30px;
+}
+
+.TextWork1 {
+    grid-column : 2/2;
+    grid-row : 2/3;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    line-height: 22px;
+}
+
+.Photo {
+    grid-column : 1/2;
+    grid-row : 2/3;
+    object-fit: cover;
+}
+
+.Text {
+    grid-column : 2/2;
+    grid-row : 2/3;
+    color: white;
+    padding: 10px;
+    line-height: 22px;
+}
+
+/* a href  */
+.Text ul {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.Text ul li {
+    display: inline-block;
+}
+
+.Text ul li {
+    padding-right: 0.6em;
+}
+
+.Text ul li a:before {
+    padding-right: 0.3em;
+}
+
+.TextWork1 ul {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.TextWork1 ul li {
+    display: inline-block;
+}
+
+.TextWork1 ul li {
+    padding-right: 0.6em;
+}
+
+.TextWork1 ul li a:before {
+    padding-right: 0.3em;
+}
+
+
+
+
+/* a href  color */
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #bf323a;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: #747474;
+    background-color: transparent;
+    text-decoration: underline;
+}
