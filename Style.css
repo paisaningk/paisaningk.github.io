@@ -1,6 +1,7 @@
 /* Add a black background color to the top navigation */
 .header {
     background-color: #050404;
+    max-width: 1300px;
     overflow: hidden;
 }
 
@@ -28,147 +29,54 @@
 }
 
 /* Home */
-.Home {
-    padding: 10px;
-    color: white;
-    line-height: 22px;
-    font-weight: bold;
-}
-.Home > div {
-    font-size: 18px;
-    border: 5px solid #5c1116;
-    padding: 10px;
-}
-
 .HomePhoto {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
     border :5px solid #5c1116;
+    max-width: 100%;
+    height: auto;
 }
 
-.HomeText {
-    font-size: 25px;
-    margin-top: 10px;
+.container-fluid {
+    color: white;
+    max-width: 1300px;
+    padding: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    line-height: 22px;
+    font-weight: bold;
+    font-size: 18px;
 }
+
+.container-fluid > div {
+    border :5px solid #5c1116;
+    padding: 5px;
+}
+
+.col {
+    padding: 5px;
+}
+
 
 /* Contact */
-.Contact {
-    color: white;
-    padding: 10px;
-}
-
-.Contact > div {
-    border: 5px;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.PhotoContact {
-    margin-top: 10px;
-}
-
-.Contact ul {
-    margin-top: 10px;
+.container-fluid ul {
     overflow: hidden;
 }
 
-.Contact ul li {
+.container-fluid ul li {
     display: inline-block;
-}
-
-.Contact ul li {
-    padding-right: 0.6em;
-}
-
-.Contact ul li a:before {
-    padding-right: 0.3em;
-}
-
-/* Work */
-.Work {
-    display: grid;
-    grid-template-columns: auto auto ;
-    grid-template-rows: 10px auto  auto 10px;
-    padding: 10px;
-    color: white;
-}
-
-.Work > div {
-    border: 5px solid #5c1116;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.PhotoWork1 {
-    grid-column : 1/2;
-    grid-row : 2/3;
-    object-fit: cover;
-    margin-top: 40px;
-}
-
-.TextWork1 {
-    grid-column : 2/2;
-    grid-row : 2/3;
-    color: white;
-    padding: 10px;
-    margin-top: 40px;
-    line-height: 22px;
-}
-
-.Photo {
-    grid-column : 1/2;
-    grid-row : 2/3;
-    object-fit: cover;
-}
-
-.Text {
-    grid-column : 2/2;
-    grid-row : 2/3;
-    color: white;
-    padding: 10px;
-    line-height: 22px;
-}
-
-/* a href  */
-.Text ul {
     margin-top: 10px;
-    overflow: hidden;
 }
 
-.Text ul li {
-    display: inline-block;
-}
-
-.Text ul li {
+.container-fluid ul li {
     padding-right: 0.6em;
 }
 
-.Text ul li a:before {
+.container-fluid ul li a:before {
     padding-right: 0.3em;
 }
-
-.TextWork1 ul {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    overflow: hidden;
-}
-
-.TextWork1 ul li {
-    display: inline-block;
-}
-
-.TextWork1 ul li {
-    padding-right: 0.6em;
-}
-
-.TextWork1 ul li a:before {
-    padding-right: 0.3em;
-}
-
-
-
 
 /* a href  color */
 a:visited {
@@ -185,4 +93,19 @@ a:active {
     color: #747474;
     background-color: transparent;
     text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+h1 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 24px;
 }
