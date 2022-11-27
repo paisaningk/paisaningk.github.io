@@ -2177,6 +2177,11 @@ input, select, textarea {
 			font-size: 1.2em;
 		}
 
+		ul li.adc {
+			color: black;
+		}
+
+
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
