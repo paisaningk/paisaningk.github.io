@@ -136,7 +136,7 @@ input, select, textarea {
 
 	p {
 		color: black;
-		font-size: 1.2em;
+		font-size: 19.2px;
 		margin: 0 0 2em 0;
 	}
 
@@ -158,7 +158,7 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 2.5em;
+		font-size: 40px;
 		line-height: 1.5em;
 		margin: 0 0 0.5em 0;
 	}
@@ -1798,7 +1798,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		font-size: 3em;
+		font-size: 48px;
 		margin: 0 0 0.5em 0;
 	}
 
@@ -2173,13 +2173,15 @@ input, select, textarea {
 	}
 
 		ul li {
+			color: black;
 			padding-left: 0.5em;
-			font-size: 1.2em;
+			font-size: 19.2px;
 		}
 
 		ul li.adc {
 			color: black;
 		}
+
 
 
 		ul.alt {
@@ -2576,18 +2578,18 @@ input, select, textarea {
 		}
 
 		.work-item h3 {
-			font-size: 2em;
+			font-size: 32px;
 			margin: 0 0 0.5em 0;
 		}
 
 		.work-item h4 {
-			font-size: 2em;;
+			font-size: 32px;
 			margin: 0.5em 0 0.5em 0;
 		}
 
 		.work-item p {
 			color: black;
-			font-size: 1.2em;
+			font-size: 19.2px;
 			line-height: 1.5em;
 			margin: 0;
 		}
