@@ -14,20 +14,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="Photo/826566614673260627.jpg" sizes="16x16" type="image/jpg">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 	</head>
 	<body class="is-preload">
-
-		<!-- Header -->
-<!--			<header id="header">-->
-<!--				<div class="inner">-->
-<!--					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>-->
-<!--					<h1>-->
-<!--						<strong>I am Strata</strong>, a super simple<br />-->
-<!--					responsive site template freebie<br />-->
-<!--					crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1>-->
-<!--				</div>-->
-<!--			</header>-->
-
 		<!-- Main -->
 			<div id="main">
 
@@ -37,7 +26,7 @@
 							<h2>About Me</h2>
 						</header>
 						<p>
-							สวัสดีครับ ผมชื่อ นายไพศาล อิงควระ เรียนจบมาจากมหาวิทยาลัยกรุงเทพ คณะเทคโนโลยีสารสนเทศและนวัตกรรม สาขาวิชาเกมและสื่อเชิงโต้ตอบ สนใจในตำแหน่งงาน Game Programmer ผมได้มีโอกาสไปฝึกงานกับบริษัท Urnique Studio ในระยะ 6 เดือนและ <br>มีความสนใจในด้าน Graphic กำลังศึกษา Shader ใน Unity และสามารถนำ Tool มาปรับใช้กับโปรเจคเพื่อลดเวลาทำงานได้
+							สวัสดีครับ ผมชื่อ นายไพศาล อิงควระ เรียนจบมาจากมหาวิทยาลัยกรุงเทพ คณะเทคโนโลยีสารสนเทศและนวัตกรรม สาขาวิชาเกมและสื่อเชิงโต้ตอบ สนใจในตำแหน่งงาน Game Programmer ผมได้มีโอกาสไปฝึกงานกับบริษัท Urnique Studio ในระยะ 6 เดือนและ มีความสนใจในด้าน Graphic กำลังศึกษา Shader ใน Unity และสามารถนำ Tool มาปรับใช้กับโปรเจคเพื่อลดเวลาทำงานได้
 						</p>
 						<ul class="actions">
 							<li><a href="Resume.pdf" class="button">Download Resume</a></li>
@@ -68,7 +57,23 @@
 							<!-- Place of Destination -->
 							<article class="col-6 col-12-xsmall work-item">
 								<h3>Place of Destination</h3>
-								<img src="Photo/boobee.gif" alt="" width="100%"/>
+								<!-- Image Slider -->
+								<div class="swiper">
+									<!-- Additional required wrapper -->
+									<div class="swiper-wrapper">
+										<!-- Slides -->
+										<div class="swiper-slide"><img src="Photo/boobee1.gif" alt="" width="100%"/></div>
+										<div class="swiper-slide"><img src="Photo/boobee2.gif" alt="" width="100%"/></div>
+										<div class="swiper-slide"><img src="Photo/boobee3.gif" alt="" width="100%"/></div>
+										<div class="swiper-slide"><img src="Photo/boobee4.gif" alt="" width="100%"/></div>
+									</div>
+									<!-- If we need pagination -->
+									<div class="swiper-pagination"></div>
+
+									<!-- If we need navigation buttons -->
+									<div class="swiper-button-prev"></div>
+									<div class="swiper-button-next"></div>
+								</div>
 								<p>
 									Place of Destination เป็นเกมแนว 2D Action Roguelike ที่เราต้องเอาชนะมอนสเตอร์ในแต่ละรอบและอัปเกรดตัวละครให้เก่งขึ้นด้วยการซื้อ item และยังมีระบบการจีบตัวละครอีกด้วย จุดเด่นของเกมนี้คือการที่เราเห็นตัวละครที่เล่นมีการมีพัฒนาการที่ชัดเจนเช่นการโจมตีที่แรงขึ้น ในเกมนี้มีคนทำทั้งหมด 4 คน ผมรับหน้าที่เป็นโปรแกรมเมอร์และ Project Lead ในงานนี้เป็นคนทำ Core Gameplay การใส่ Animation ให้ตัวละครต่างๆ และระบบ Dialogue ที่ได้ใช้ตัว
 									<a href="https://www.inklestudios.com/ink/">Ink</a> เข้ามาช่วยในการทำ
@@ -114,6 +119,9 @@
 									<li>
 										<a href="https://kaofap.itch.io/letgomycar">Itch.io</a>
 									</li>
+									<li>
+										<a href="https://github.com/paisaningk/Classwork-Multiplayer-Car2D">Github</a>
+									</li>
 								</ul>
 								</p>
 								<hr>
@@ -142,61 +150,80 @@
 				<section>
 					<h2>Misc</h2>
 					<div class="row">
-						<!-- BonkSlayer -->
-						<article class="misc col-12-xsmall work-item">
-							<h3>BonkSlayer</h3>
-							<img src="Photo/Monk.gif" alt="" width="100%"/>
-							<p>
-								BonkSlayer เป็นเกมแนว 2D Top-Down Shooter เป็นเกมแรกที่ได้ทำขึ้นใน Unity
-							</p>
-							<h4>Link</h4>
-							<p>
-							<ul>
-								<li>
-									<a href="https://www.youtube.com/watch?v=Eb2r4-NA3PU&feature=youtu.be">Video</a>
-								</li>
-								<li>
-									<a href="https://paisaningk.github.io/BonkSlayer-WebGL/">Play on Web</a>
-								</li>
-								<li>
-									<a href="https://github.com/paisaningk/BonkSlayer">Github</a>
-								</li>
-							</ul>
-							</p>
-							<hr>
-						</article>
-						<!-- LifeForceTenka Clone -->
-						<article class="misc col-12-xsmall work-item">
-							<h3>LifeForceTenka Clone</h3>
-							<img src="Photo/LifeforceTenka.gif" alt="" width="100%"/>
-							<p>
-								เกมนี้ถูกพัฒนาด้วย Unreal Engine 4 และเรียนรู้เกี่ยวกับการทำเกมและใช้ Asset จาก
-								<a href="https://www.udemy.com/course/unreal-engine-4-first-person-shooter-lifeforce-tenka-clone/">UE4 FPS : Lifeforce Tenka Clone</a>
-							</p>
-							<h4>Link</h4>
-							<p>
-							<ul>
-								<li>
-									<a href="https://www.youtube.com/embed/nvUOdfEmhF8">Video</a>
-								</li>
-								<li>
-									<a href="https://drive.google.com/file/d/1jUAo10378RUDgWna-9TlT5xg28kQ2mVv/view?usp=sharing">Download</a>
-								</li>
-							</ul>
-							</p>
-							<hr>
-						</article>
+						<div class="row">
+							<!-- BonkSlayer -->
+							<article class="misc col-12-xsmall work-item">
+								<h3>BonkSlayer</h3>
+								<img src="Photo/Monk.gif" alt="" width="100%"/>
+								<p>
+									BonkSlayer เป็นเกมแนว 2D Top-Down Shooter เป็นเกมแรกที่ได้ทำขึ้นใน Unity
+								</p>
+								<h4>Link</h4>
+								<p>
+								<ul>
+									<li>
+										<a href="https://www.youtube.com/watch?v=Eb2r4-NA3PU&feature=youtu.be">Video</a>
+									</li>
+									<li>
+										<a href="https://paisaningk.github.io/BonkSlayer-WebGL/">Play on Web</a>
+									</li>
+									<li>
+										<a href="https://github.com/paisaningk/BonkSlayer">Github</a>
+									</li>
+								</ul>
+								</p>
+							</article>
+							<!-- LifeForceTenka Clone -->
+							<article class="misc col-12-xsmall work-item">
+								<h3>LifeForceTenka Clone</h3>
+								<img src="Photo/LifeforceTenka.gif" alt="" width="100%"/>
+								<p>
+									เกมนี้ถูกพัฒนาด้วย Unreal Engine 4 และเรียนรู้เกี่ยวกับการทำเกมและใช้ Asset จาก
+									<a href="https://www.udemy.com/course/unreal-engine-4-first-person-shooter-lifeforce-tenka-clone/">UE4 FPS : Lifeforce Tenka Clone</a>
+								</p>
+								<h4>Link</h4>
+								<p>
+								<ul>
+									<li>
+										<a href="https://www.youtube.com/embed/nvUOdfEmhF8">Video</a>
+									</li>
+									<li>
+										<a href="https://drive.google.com/file/d/1jUAo10378RUDgWna-9TlT5xg28kQ2mVv/view?usp=sharing">Download</a>
+									</li>
+								</ul>
+								</p>
+							</article>
+							<div class="Misc">
+								<hr style="margin: 0px 0px 47px  0px;">
+							</div>
+						</div>
 					</div>
 				</section>
 			</div>
 
 		<!-- Scripts -->
+			<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				const swiper = new Swiper('.swiper', {
+				loop: true,
 
+				// If we need pagination
+				pagination: {
+					el: '.swiper-pagination',
+				},
+
+				// Navigation arrows
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				}
+			});
+			</script>
 	</body>
 </html>
