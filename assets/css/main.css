@@ -3230,6 +3230,10 @@ input, select, textarea {
 			height: 500px;
 		}
 
+		.adc.slider-for {
+			color: #1f1815;
+		}
+
 	}
 
 /* XSmall */
