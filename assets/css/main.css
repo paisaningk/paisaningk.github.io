@@ -224,6 +224,11 @@ article > ul > li {
     margin: 0 0 0.2em 0;
 }
 
+h4 > a {
+    color: #04AA6D;
+    text-decoration: underline;
+}
+
 sub {
     font-size: 0.8em;
     position: relative;
