@@ -21,7 +21,7 @@ h4.moreInfo {
 }
 
 h3.moreInfo {
-    font-size: 32px;
+    font-size: 28px;
     margin: 0px 0px 10px;
 }
 
@@ -178,18 +178,18 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 1.8em;
     line-height: 1.5em;
     margin: 0 0 0.5em 0;
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1.5em;
 }
 
 h4 {
-    font-size: 1.1em;
+    font-size: 1.3em;
     line-height: 1.5em;
 }
 
@@ -204,12 +204,11 @@ h6 {
 }
 
 article > h4 {
-    font-size: 1.5em;
     margin: 0 0 1em 0;
 }
 
 article > p {
-    font-size: 1em;
+    font-size: 0.9em;
     margin: 0 0 1.5em 0;
 }
 
@@ -218,7 +217,7 @@ h4.header {
 }
 
 article > ul > li {
-    font-size: 1em;
+    font-size: 0.9em;
     margin: 0 0 0.3em 0;
 }
 
