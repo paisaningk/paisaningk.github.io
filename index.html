@@ -27,9 +27,9 @@
             <h2>About Me</h2>
         </header>
         <p>
-            สวัสดีครับ ผมชื่อไพศาล อิงควระ เคยทำงานที่ Sunny Syrup Studio เป็นเวลา 2 ปี และเคยมีโอกาสฝึกงานกับ Urnique
-            Studio ผมสนใจในการพัฒนาเครื่องมือต่าง ๆ เพื่อช่วยลดงานซ้ำซ้อนให้กับทีม และในเวลาว่างผมชอบศึกษาของใหม่ ๆ
-            เพื่อให้ได้โอกาสเรียนรู้และพัฒนาทักษะอย่างต่อเนื่องสำหรับการเติบโตในอนาคต
+            Hello, my name is Paisan Ingkavara. I worked at Sunny Syrup Studio for two years and had the opportunity to
+            intern at Urnique Studio. I am interested in developing tools to reduce repetitive tasks for the team. In my
+            free time, I enjoy learning new things to continuously develop my skills for future growth.
         <ul class="actions">
             <li><a href="Resume.pdf" class="button">Download Resume</a></li>
         </ul>
@@ -54,6 +54,62 @@
     <section id="Test">
         <h2>Commercial Game</h2>
         <div class="row">
+            <!--Not Monday Cafe-->
+            <article class="col-6 col-12-xsmall">
+                <h3 id="NotMondayCafe">Not Monday Cafe</h3>
+                <!-- Image Slider -->
+                <div>
+                    <iframe width="100%" height="439px"
+                            src="https://www.youtube.com/embed/hWiZBxUwcr8?si=U1MWEnZ_0yuNV42R?autoplay=1&mute=1">
+                    </iframe>
+                </div>
+                <p>
+                    Not Monday Cafe is an idle game similar to Rusty's Retirement, developed using Unity. The game
+                    focuses on idle mechanics, offering a relaxing experience for players.
+                </p>
+                <p>
+                    In this project, I was responsible for developing game systems and designing a framework for a
+                    grid-based game, as well as creating tools to support the project’s development workflow.
+                </p>
+                <ul>
+                    <li>
+                        Developed a grid system that divides the game area into small squares for object placement and
+                        character movement. This system also connects various game mechanics, like defining areas for
+                        furniture placement or walkable paths for characters.
+                    </li>
+                    <li>
+                        Developed a tile map system and tools for creating tiles to display walls and floors within the
+                        game.
+                    </li>
+                    <li>
+                        Developed a furniture creation system with modular sub-systems to easily add new features
+                        without modifying the core system
+                    </li>
+                    <li>
+                        Developed a furniture framework, including sprite rendering, size customization, and AI
+                        interaction points.
+                    </li>
+                    <li>
+                        Developed a save/load system that stores in-game data for convenience in creating mockups or
+                        trailers.
+                    </li>
+                    <li>
+                        Developed an animation system using the Sprite Library to simplify repetitive animations and
+                        created tools for building sprite libraries for in-game characters
+                    </li>
+                    <li>
+                        Developed a UI framework, including buttons that trigger selectable sound effects on click and
+                        play effects when hovered over or clicked
+                    </li>
+                </ul>
+                <h4 class="moreInfo">More Info</h4>
+                <ul>
+                    <li>
+                        <a href="https://store.steampowered.com/app/3167540/Not_Monday_Cafe/">Steam Store</a>
+                    </li>
+                </ul>
+                <hr>
+            </article>
             <!--Spirit Mancer-->
             <article class="col-6 col-12-xsmall">
                 <h3 id="SpiritMancer">Spirit Mancer - Play Prime’s Best Game Of The Year</h3>
@@ -63,98 +119,48 @@
                     </iframe>
                 </div>
                 <p>
-                    Spirit Mancer เป็นเกมแนว 2D Action Hack-and-Slash ที่ผสมผสานกับระบบ Deckbuilding พัฒนาโดยใช้ Unity
-                    ตัวเกมได้รับรางวัล Play Prime’s Best Game Of The Year
-                    และยังได้รับคัดเลือกให้เข้าร่วมการแข่งขันในรายการ LEVEL UP KL SEA Game Awards 2024
+                    Spirit Mancer is a 2D Action Hack-and-Slash game with Deckbuilding mechanics, developed using Unity.
+                    The game won Play Prime’s Best Game of the Year award and was selected to compete in the LEVEL UP KL
+                    SEA Game Awards 2024
                 </p>
                 <p>
-                    ในโปรเจกต์นี้ รับผิดชอบการพัฒนาระบบเกม เครื่องมือ (Tools) และการปรับแต่งประสิทธิภาพ (Optimization)
-                    สำหรับการพอร์ตเกมไปยังแพลตฟอร์ม PC, PlayStation และ Nintendo Switch รวมถึงสนับสนุนทีมในการแก้ไขบั๊ก
+                    In this project, I was responsible for developing game systems, tools, and optimizing the game for
+                    porting to PC, PlayStation, and Nintendo Switch platforms. Additionally, I supported the team with
+                    bug fixes
                 </p>
-                <h4>ระบบที่พัฒนาขึ้น</h4>
                 <ul>
                     <li>
-                        ปรับปรุงการใช้ทรัพยากรด้วยการพัฒนาระบบโหลดเฉพาะเมื่อจำเป็น
-                        และลดปัญหาการโหลดไม่ทันด้วยการใช้การโหลดแบบ Asynchronous
-                        เพื่อให้เกมสามารถรันได้อย่างมีประสิทธิภาพบน PC, PlayStation และ Nintendo Switch
+                        Optimized resource usage by developing a load-on-demand system and reducing loading delays
+                        through asynchronous loading. This ensured efficient game performance across PC, PlayStation,
+                        and Nintendo Switch platforms.
                     </li>
                     <li>
-                        พัฒนาระบบให้ผู้เล่นสามารถปรับแต่งปุ่มควบคุมเกม (Key Binding) และพัฒนาระบบแสดงผลปุ่มใน UI
-                        ให้รองรับการใช้งานบน PC, PlayStation และ Nintendo Switch
+                        Developed a key binding system and a UI display system to support customizable controls on PC,
+                        PlayStation, and Nintendo Switch.
                     </li>
                     <li>
-                        ใช้งานระบบ Third-Party ต่าง ๆ ในโปรเจกต์ เช่น Wwise สำหรับการจัดการเสียง และระบบ Localization
-                        สำหรับการแปลภาษาต่าง ๆ
+                        Integrated various third-party systems into the project, such as Wwise for audio management and
+                        a localization system for multi-language support.
                     </li>
                     <li>
-                        พัฒนาเครื่องมือสำหรับจัดการรูปภาพภายในเกม เช่น การย้ายไฟล์รูปภาพไปยังโฟลเดอร์ที่ถูกต้อง
-                        และการตั้งค่ารูปภาพให้ตรงตามมาตรฐานที่ทีมศิลป์กำหนด
+                        Developed tools for managing sprites within the game, such as automating the movement of sprite
+                        files to the correct folders and configuring the sprites to meet the standards set by the art
+                        team
                     </li>
                     <li>
-                        พัฒนาเครื่องมือสำหรับสร้าง Cutscene เช่น การควบคุมการเล่น Animation ในฉากต่าง ๆ
-                        และการแสดงข้อความตามภาษาที่ผู้เล่นเลือก
+                        Developed tools for creating cutscenes, such as controlling animations in different scenes and
+                        displaying localized text based on the player's selected language.
                     </li>
                     <li>
-                        พัฒนาเครื่องมือสำหรับการ Build เกมที่ให้ผู้ใช้งานสามารถเลือกประเภทการ Build ได้ตามต้องการ
-                        ไม่ว่าจะเป็นแบบ Demo, เกมเต็ม หรือเวอร์ชันทดสอบ (Test) รวมถึงสามารถกำหนดข้อมูล Addressable
-                        ที่ต้องการใส่ลงในเกมเพื่อช่วยในการลดขนาดไฟล์เกม
+                        Developed a build tool that allows users to select the type of build, such as Demo, Full Game,
+                        or Test version. Additionally, the tool enables users to define the Addressable assets to
+                        include in the game, helping to reduce the game's file size.
                     </li>
                 </ul>
                 <h4 class="moreInfo">More Info</h4>
                 <ul>
                     <li>
                         <a href="https://store.steampowered.com/app/2172580/Spirit_Mancer/">Steam Store</a>
-                    </li>
-                </ul>
-                <hr>
-            </article>
-            <!--Not Monday Cafe-->
-            <article class="col-6 col-12-xsmall">
-                <h3 id="NotMondayCafe">Not Monday Cafe</h3>
-                <!-- Image Slider -->
-                <div><img src="Photo/NotMonday/NM_Banner.jpg" alt="" width="100%"></div>
-                <p>
-                    Not Monday Cafe เป็นเกมแนว Idle ที่มีรูปแบบการเล่นคล้ายกับ Rusty's Retirement พัฒนาโดยใช้ Unity
-                </p>
-                <p>
-                    ในโปรเจกต์นี้ รับผิดชอบการพัฒนาระบบเกมและออกแบบ Framework สำหรับเกมที่ใช้ระบบ Grid-based
-                    รวมถึงการพัฒนาเครื่องมือ (Tools) เพื่อสนับสนุนการทำงานในโปรเจกต์
-                </p>
-                <h4>ระบบที่พัฒนาขึ้น</h4>
-                <ul>
-                    <li>
-                        พัฒนาระบบ Grid ที่แบ่งพื้นที่ทั้งหมดเป็นช่องสี่เหลี่ยมเล็ก ๆ
-                        เพื่อใช้ในการสร้างสิ่งของหรือระบบการเดินของตัวละคร รวมถึงเป็นระบบหลักที่เชื่อมต่อระบบต่าง ๆ
-                        ในเกมเข้าด้วยกัน เช่น การกำหนดจุดที่สามารถวางเฟอร์นิเจอร์ หรือจุดที่ตัวละครไม่สามารถเดินไปได้
-                    </li>
-                    <li>
-                        พัฒนาระบบ Tile Map และเครื่องมือในการสร้าง Tile ที่ทำหน้าที่แสดงผลกำแพงและพื้นภายในเกม
-                    </li>
-                    <li>
-                        พัฒนาระบบสร้างสิ่งของที่มีระบบย่อยต่าง ๆ เพื่อช่วยให้การเพิ่มฟังก์ชันหรือระบบใหม่ ๆ
-                        ทำได้ง่ายขึ้นโดยไม่ต้องแก้ไขตัวหลัก
-                        ซึ่งช่วยลดความซ้ำซ้อนของโค้ดและทำให้การดูแลรักษาโค้ดมีความสะดวกมากขึ้น
-                    </li>
-                    <li>
-                        พัฒนาระบบเฟอร์นิเจอร์ เช่น การแสดงผลรูปภาพ การกำหนดขนาดของเฟอร์นิเจอร์ และการระบุจุดที่ AI
-                        สามารถทำการ Interact ได้
-                    </li>
-                    <li>
-                        พัฒนาระบบ Save/Load และสามารถเก็บข้อมูลในโปรแกรมเพื่อความสะดวกในการทำ Mockup หรือ Trailer ของเกม
-                    </li>
-                    <li>
-                        พัฒนาระบบ Animation โดยใช้ Sprite Library เพื่อช่วยลดความยุ่งยากในการทำ Animation ซ้ำ ๆ
-                        และพัฒนาเครื่องมือสำหรับการสร้าง Sprite Library สำหรับตัวละครในเกม
-                    </li>
-                    <li>
-                        พัฒนาระบบ Framework UI เช่น การทำปุ่มที่สามารถเลือกเสียงที่จะเล่นได้เมื่อกด
-                        หรือเล่นเอฟเฟกต์เมื่อกดหรือตอนวางเมาส์บนปุ่ม
-                    </li>
-                </ul>
-                <h4 class="moreInfo">More Info</h4>
-                <ul>
-                    <li>
-                        <a href="https://store.steampowered.com/app/3167540/Not_Monday_Cafe/">Steam Store</a>
                     </li>
                 </ul>
                 <hr>
@@ -170,23 +176,26 @@
                 <!-- Image Slider -->
                 <div class="slider-for">
                     <div><img src="Photo/boobee/boobee3.gif" alt="" width="100%">
-                        <p class="Image">ภาพที่ 1 : ระบบการต่อสู้ ทิศทางของการโจมตีจะตามเมาส์ของผู้เล่น Enemy
-                            มีทั้งหมดสี่แบบด้วยกันแต่ละแบบจะมีวิธีจัดการที่ไม่เหมือนกัน เมื่อ Enemy
-                            ตายจะดรอปเงินเพื่อเอาไปซื้อของ และมีโอกาสของดรอปของที่เอาไปจีบตัวละครได้อีกด้วย</p></div>
+                        <p class="Image">Image 1 : shows the battle system where attack directions follow the player's
+                            mouse. There are four types of enemies, each with different strategies to handle. Upon
+                            defeating enemies, players can collect money for purchases and have a chance to obtain items
+                            that can be used to win the favor of NPC characters.</p></div>
                     <div><img src="Photo/boobee/boobee4.gif" alt="" width="100%">
-                        <p class="Image">ภาพที่ 2 : ระบบร้านค้า
-                            ผู้เล่นจะถูกเทเลพอร์ตมาที่นี่หลังจบการต่อสู้เพื่อซื้อของอัพเกรดตัวละคร
-                            และการคุยกับพ่อค้าจะมีตัวเลือกให้ผู้เล่นได้เลือกระหว่างการ Reroll Item และการ Heal
-                            เลือดตัวเองด้วยการจ่ายเงิน</p></div>
+                        <p class="Image">
+                            Image 2 : displays the shop system. After completing a battle, players are teleported to the
+                            shop to purchase upgrades for their character. They can interact with the merchant to either
+                            reroll items or heal by spending gold.
+                        </p></div>
                     <div><img src="Photo/boobee/boobee1.gif" alt="" width="100%">
-                        <p class="Image">ภาพที่ 3 : ระบบเลือกตัวละครจะมีตัวละครทั้งหมดสองตัวด้วยกันคือ Ronin และ
-                            MarksMan ทั้งสองตัวจะมีการเล่นที่แตกต่างกัน เช่น Ronin เป็นตัวละครตีใกล้ที่เน้นให้ Enemy
-                            ตีก่อนแล้วเข้าไปตี และ MarksMan ที่เป็นตัวละครยิงไกลที่เน้นการเดินไปโจมตีไป</p></div>
+                        <p class="Image">
+                            Image 3 : shows the character selection system, where players can choose between two
+                            characters: Ronin, a melee fighter, and MarksMan, a ranged character.
+                        </p></div>
                     <div><img src="Photo/boobee/boobee2.gif" alt="" width="100%">
-                        <p class="Image">ภาพที่ 4 : ระบบบทสนทนาได้ใช้ Ink
-                            ช่วยในการเช็คว่าเนื้อเรื่องดำเนินถึงจุดไหนแล้วแสดงบทพูดของตัว NPC และ
-                            ยังมีระบบความสัมพันธ์ของ NPC ที่ผู้เล่นจีบได้ด้วยการให้ของที่คล้ายกับ Stardew Valley
-                            และเนื้อเรื่องของ NPC ที่จีบได้มีให้อ่านจนจบได้</p></div>
+                        <p class="Image">
+                            Image 4 : shows the dialogue system powered by Ink, which tracks the progress of
+                            the storyline and displays NPC dialogue. The system also features a relationship mechanic
+                            similar to Stardew Valley.</p></div>
                 </div>
                 <div class="slider-nav">
                     <div><img src="Photo/boobee/boobee3.gif" alt="" width="100%"></div>
@@ -196,28 +205,29 @@
                 </div>
                 <ul>
                     <li>
-                        Place of Destination เป็นเกมแนว 2D Action Roguelike Dating Sim
+                        Place of Destination is a 2D action roguelike dating sim
                     </li>
                     <li>
-                        คุณจะได้รับบทเป็นนักผจญภัย ที่ต้องได้ออกสำรวจดันเจี้ยนต่าง ๆ คุณจะต้องเอาชนะมอนสเตอร์ในแต่ละรอบ
-                        และเก็บเงินมาอัพเกรดตัวละครจากการชื้อ Item ต่าง ๆ
-                        ให้แข็งแกร่งขึ้นเพื่อให้อยู่รอดถึงรอบสุดท้ายที่จะมีบางอย่างรอคุณอยู่
-                        และยังมีตัวละครที่คุณสามารถจีบได้ด้วยให้ของขวัญที่สามารถหาได้ในการต่อสู้เท่านั้น
+                        In Place of Destination, you play as an adventurer exploring dungeons, battling monsters, and
+                        collecting money to upgrade your character. As you progress, you can buy items to strengthen
+                        your abilities and survive tougher challenges. n addition to combat, you can build relationships
+                        by giving gifts found in battles
                     </li>
                     <li>
-                        จุดเด่นของเกมนี้การที่เราเห็นพัฒนาการของตัวละคร เช่นโจมตีแรงขึ้น วิ่งได้ไวขึ้น เป็นต้น
-                        และก็มีความท้าทายในตัวเอง
+                        A key highlight of Place of Destination is the character progression. As you advance, you'll see
+                        improvements like stronger attacks and faster movement.
                     </li>
                     <li>
-                        ในเกมนี้มีคนทำทั้งหมด 4 คน ผมรับหน้าที่เป็นโปรแกรมเมอร์ และ Project Lead
-                        ภายในงานนี้ผมเป็นคนทำระบบทุกอย่างภายในเกม เช่น ระบบการต่อสู้ ระบบร้านค้า ระบบการอัพเกรดตัวละคร
-                        การใส่ Animation ให้ตัวละครต่าง ๆ และระบบบทสนทนาที่ได้ใช้ตัว <a
-                            href="https://www.inklestudios.com/ink/">Ink</a> เข้ามาช่วยในการทำ
+                        n this project, I worked with a team of four people, where I took on the role of both programmer
+                        and project lead. I was responsible for developing key systems within the game, including
+                        combat, the store system, character upgrades, animations, and the dialogue system. I utilized <a
+                            href="https://www.inklestudios.com/ink/">Ink</a> for creating interactive dialogue.
                     </li>
                     <li>
-                        เกมนี้ได้เข้าร่วมการแข่งขันในรายการ <a
+                        Place of Destination participated in the <a
                             href="https://www.facebook.com/TGAThailand/photos/a.776034985763806/5257295954304331/">GAME
-                        TALENT SHOWCASE 2022 Presented by Bitkub</a> และยังได้เข้ารอบที่มีทั้งหมดสามสิบทีม
+                        TALENT SHOWCASE 2022 Presented</a>
+
                     </li>
                 </ul>
                 <h4 class="moreInfo">More Info</h4>
@@ -239,35 +249,48 @@
                 <h3>Internship Project</h3>
                 <div class="slider-for">
                     <div><img src="Photo/internship/internship-1%20new.gif" alt="" width="100%">
-                        <p class="Image">ภาพที่ 1 : ระบบหยิบสิ่งของและระบบ Hover สิ่งของ
-                            เราสามารถหยิบสิ่งของไปมาได้เหมือนกับในเกม Papers, Please และเมื่อเราเอาเมาส์ไป Hover
-                            สิ่งของจะทำให้ Icon ของเมาส์ก็จะเปลี่ยนตามสิ่งของที่เรา Hover และมีตัว UI บอกรายละเอียดต่าง
-                            ๆ</p></div>
+                        <p class="Image">
+
+                            Image 1 : shows the object pickup and hover system. Players can pick up items like in
+                            Papers,
+                            Please, and when hovering the mouse over an object, a UI pops up displaying detailed
+                            information about the item.
+                        </p></div>
                     <div><img src="Photo/internship/internship-3.gif" alt="" width="100%">
-                        <p class="Image">ภาพที่ 2 : ระบบเลือก Tag สิ่งของและระบบแจ้งเตือน เมื่อเรากดเลือก Tag
-                            สิ่งของแล้ว สิ่งของจะโชว์ขึ้นมาให้เราได้ดู
-                            และเมื่อเรามีสิ่งของอันใหม่เพิ่มเข้ามาตัวเกมก็จะขึ้นแจ้งเตือนสีแดง ๆ บนปุ่ม Tag
-                            และจะหายไปเมื่อเรากดเลือก Tag ที่มีแจ้งเตือน</p></div>
+                        <p class="Image">
+                            Image 2 : shows the item tagging and notification system. When a player selects an item tag,
+                            the corresponding items are displayed. If new items are added, a red notification appears on
+                            the tag button
+                        </p></div>
                     <div><img src="Photo/internship/internship-6.gif" alt="" width="100%">
-                        <p class="Image">ภาพที่ 3 : ระบบดูรายละเอียดสิ่งของ เมื่อเรากดคลิกขวาที่สิ่งของ
-                            ก็จะเปิดใช้ระบบนี้ขึ้นมา และแสดงข้อมูลที่เกี่ยวกับสิ่งของชิ้นนั้นๆ และสามารถ Zoom
-                            เข้าไปดูสิ่งของได้อีกด้วย ก่อนหน้าที่สามารถหมุนได้แต่ว่าโดนตัดออกไป</p></div>
+                        <p class="Image">
+                            Image 3 : shows the item detail system. When players right-click on an item, this system is
+                            activated to display relevant information about the item. Additionally, players can zoom in
+                            for a closer look
+                        </p></div>
                     <div><img src="Photo/internship/internship-4%20new.gif" alt="" width="100%">
-                        <p class="Image">ภาพที่ 4 : ระบบปริศนา เราจะต้องเอาสิ่งของไปใส่ไว้ในช่องตรงกลาง เมื่อใส่ผิด
-                            สิ่งของก็จะเด้งกลับไปอยู่ที่เดิม เมื่อเราใส่ถูกต้อง สิ่งของก็จะเด้งกลับไปที่เดิม
-                            และจะเกิดเหตุการณ์ตามที่เราได้กำหมดไว้</p></div>
+                        <p class="Image">
+                            Image 4 shows the puzzle system where players place objects into a central slot. If the
+                            object is placed incorrectly, it will return to its original position. Correct placement
+                            triggers event.
+                        </p></div>
                     <div><img src="Photo/internship/internship-5.gif" alt="" width="100%">
-                        <p class="Image">ภาพที่ 5 : ระบบบทสนทนา ระบบนี้เป็น Tool จาก Asset Store
-                            เราสามารถพูดคุยกับตัวละครได้ และมีตัวเลือกให้ถามตอบกับตัวละครอีกด้วย และ
-                            เราสามารถใส่เหตุการณ์ต่าง ๆ เมื่อเราถามได้ถูกต้อง</p></div>
+                        <p class="Image">
+                            Image 5 : shows the dialogue system, It allows players to interact with characters, offering
+                            a choice-based question-and-answer system. Additionally, events can trigger based on correct
+                            responses
+                        </p></div>
                     <div><img src="Photo/internship/internship-7.gif" alt="" width="100%">
-                        <p class="Image">ภาพที่ 6 : ของในภาพนี้คือการเอาตัวระบบบทสนทนา ที่เป็น Tool จาก Asset Store
-                            มาเขียนเพิ่มเช่น ระบบขึ้นรูปประกอบ ระบบแจ้งเตือนว่ามีสิ่งของอันใหม่
-                            และสามารถเปิดดูรายละเอียดได้ทันที และระบบเล่นเพลงตามเหตุการณ์ต่าง ๆ</p></div>
+                        <p class="Image">
+                            Image 6 : shows the implementation of a dialogue system using a tool from the Asset Store.
+                            Additional features include pop-up visuals, the ability to
+                            instantly view item details, and a system for playing music based on events
+                        </p></div>
                     <div><img src="Photo/internship/internship-2.gif" alt="" width="100%">
-                        <p class="Image">ภาพที่ 7 : ระบบเลือกเพลง เมื่อเราเอาเมาส์ไปวางไว้ที่ชื่อเพลง
-                            เพลงก็จะเล่นออกมาให้เราได้ลองฟัง และเราสามารถกดเลือกเพลง
-                            หรือเอาออกเพลงได้ตามที่เราต้องการ</p></div>
+                        <p class="Image">
+                            Image 7 : shows the music selection system. When hovering the mouse over a song title, the
+                            music plays for preview. Users can then choose to add or remove songs as desired
+                        </p></div>
                 </div>
                 <div class="slider-nav">
                     <div><img src="Photo/internship/internship-1%20new.gif" alt="" width="100%"></div>
@@ -280,15 +303,14 @@
                 </div>
                 <ul>
                     <li>
-                        โปรเจกต์ที่ได้ทำร่วมกับทาง Urnique Studio แต่ไม่สามารถลงเกี่ยวกับรายละเอียดของโปรเจกต์ได้
+                        I worked on a project with Urnique Studio, but due to confidentiality, I'm unable to share
+                        specific details about it.
                     </li>
                     <li>
-                        โปรเจกต์นี้มีคนทำทั้งหมด 2 คน ผมรับหน้าที่เป็น Game Programmer
-                        ผมได้เป็นคนเขียนระบบทั้งหมดภายในเกม เกมนี้คล้าย ๆ กับเกม Papers, Please
-                        และในโปรเจกต์นี้ยังได้ใช้ Tool จาก Asset Store เข้ามาปรับใช้ในงาน และยังได้เขียนตัวอ่านข้อมูลจาก
-                        Json ที่สามารถเอาข้อมูลเข้าได้อย่างรวดเร็วเช่น การใส่ข้อมูลใน Item
-                        ถ้าใส่ข้อมูลด้วยมือจะใช้เวลาประมาณ 1 - 2 ชั่วโมงแต่ถ้าใช้ตัวอ่านที่ผมเขียนขึ้นมาใช้เวลาแค่ 1 - 2
-                        นาที
+                        In this project, I was the Game Programmer, responsible for developing all game systems. The
+                        game is similar to Papers, Please. I integrated tools from the Asset Store and created a JSON
+                        data reader to streamline input, such as adding item data. This tool reduced the time needed
+                        from 1-2 hours to just 1-2 minutes.
                     </li>
                 </ul>
                 <hr>
@@ -299,22 +321,33 @@
                 <!-- Image Slider -->
                 <div class="slider-for">
                     <div><img src="Photo/Car/car1.gif" alt="" width="100%"/>
-                        <p class="Image">ภาพที่ 1 : ระบบขับรถได้ใช้ Mirror ช่วยทำในส่วนของ Multiplayer
-                            เช่นการเช็คว่ารถคันไหนเป็นของผู้เล่น
-                            และผมออกแบบการเคลื่อนที่ของรถทำอยู่บนเครื่องของผู้เล่นเพราะต้องการให้มีความลื่นไหลมากที่สุด</p>
+                        <p class="Image">
+                            Image 1 : shows the car driving system, which uses Mirror for multiplayer features, such as
+                            checking which car belongs to which player. The car movement is designed to run on the
+                            player's machine for the smoothest gameplay experience.
+                        </p>
                     </div>
                     <div><img src="Photo/Car/car3.gif" alt="" width="100%"/>
-                        <p class="Image">ภาพที่ 2 : ระบบตารางคะแนนหลังจบเกม
-                            เมื่อผู้เล่นเข้าถึงเส้นชัยแล้วจะเปิดหน้าคะแนนขึ้นมาโดยอัตโนมัติแล้วเก็บเวลาของผู้เล่นคนนั้นไว้
-                            และทำแบบนี้จนครบทุกคน และทุกคนต้องเข้าเส้นชัยถึงจะสามารถออกจากเกมได้</p></div>
+                        <p class="Image">
+                            Image 2 : displays the leaderboard system after a race. When a player crosses the finish
+                            line,
+                            their time is recorded, and the leaderboard updates. This continues until all players
+                            finish, and players must reach the finish line before they can exit the game.
+                        </p></div>
                     <div><img src="Photo/Car/car2.gif" alt="" width="100%"/>
-                        <p class="Image">ภาพที่ 3 : ระบบล็อบบี้ ในหน้านี้ผู้เล่นสามารถกดเลือกรถสีต่าง ๆ
-                            ได้แต่ว่าการเลือก Map นั้นจะมีแค่ Host เท่านั้นที่เลือกได้และชื่อของผู้เล่นนั้นจะมาจาก Steam
-                            ของผู้เล่นเอง และต้องให้ทุกคนกดพร้อม Host ถึงจะเรื่มเกมได้</p></div>
+                        <p class="Image">
+                            Image 3 : shows the lobby system where players can select different car colors. However,
+                            only
+                            the host can choose the map. Player names are taken directly from their Steam accounts, and
+                            everyone must click "Ready" before the host can start the game.
+                        </p></div>
                     <div><img src="Photo/Car/car4.gif" alt="" width="100%"/>
-                        <p class="Image">ภาพที่ 4 : ระบบเข้าล็อบบี้ เมื่อมีคนกดสร้างห้องไว้ ห้องจะแสดงขึ้นอยู่ที่บนสุด
-                            และตัวอักษรจะมีสีเขียว ในการเป็น Client ผู้เล่นจะสามารถทำทุกอย่างได้เหมือน Host
-                            แต่จะไม่สามารถเลือก Map กับกด Start Game ไม่ได้</p></div>
+                        <p class="Image">
+                            Image 4 : shows the lobby system, where rooms created by players appear at the top with
+                            green
+                            text. As a client, players can do everything like the host, except choose the map and start
+                            the game
+                        </p></div>
                 </div>
                 <div class="slider-nav">
                     <div><img src="Photo/Car/car1.gif" alt="" width="100%"/></div>
@@ -324,19 +357,21 @@
                 </div>
                 <ul>
                     <li>
-                        Let's Go My Car เป็นเกม Racing Multiplayer ที่ผู้เล่นสามารถเล่นกับเพื่อนได้ถึง 4 คน
-                        ผ่านทางเซิร์ฟเวอร์ของ Steam
+                        Let's Go My Car is a multiplayer racing game where up to 4 players can race together via Steam's
+                        server
                     </li>
                     <li>
-                        เกมนี้ได้ใช้ Tool เข้ามาช่วยคือ <a
-                            href="https://assetstore.unity.com/packages/tools/network/mirror-129321">Mirror</a>
-                        ใช้ทำระบบที่เกี่ยวกับ Multiplayer ต่าง ๆ ภายในเกม และ <a
-                            href="https://github.com/Chykary/FizzySteamworks">Steamworks</a>
-                        ใช้ในการทำระบบล็อบบี้ที่ใช้ตัวเซิร์ฟเวอร์ของ Steam เป็นตัวกลางของการ Host เกม
+
+                        In this game, I used
+                        <a href="https://assetstore.unity.com/packages/tools/network/mirror-129321">Mirror</a>
+                        to implement multiplayer features and
+                        <a href="https://github.com/Chykary/FizzySteamworks">Steamworks</a> for the lobby system, using
+                        Steam's servers to
+                        host the game sessions
                     </li>
                     <li>
-                        ในเกมนี้มีคนทำทั้งหมด 2 คน ผมได้รับหน้าที่เป็นโปรแกรมเมอร์ที่เขียนระบบทั้งหมดภายในเกม
-                        เช่นระบบล็อบบี้ ระบบการเคลื่อนที่ของรถ และระบบอย่างการเข้าล็อบบี้เป็นต้น
+                        In this game, I worked as the sole programmer, responsible for implementing all game systems.
+                        This included the lobby system, vehicle movement mechanics
                     </li>
                 </ul>
                 <h4 class="moreInfo">More Info</h4>
@@ -356,74 +391,75 @@
     <section id="Misc">
         <h2>Misc</h2>
         <div class="row">
-            <div class="row">
-                <!-- Knock Knock Cozy -->
-                <article class="misc col-12-xsmall work-item">
-                    <h3>Knock Knock Cozy</h3>
-                    <img src="Photo/GameJam/KKC_Banner.png" width="100%" height="50%"/>
-                    <p>
-                        เข้าร่วมใน <a href="https://itch.io/jam/cozy-fall-jam-2024/">Cozy Fall Jam</a>
-                        และได้อันดับที่ 8 เกมนี้ผมได้ทำทำระบบเกมทั้งหมดและและทำตัวการเคลื่อนไว้ของตัวละครโดยใช้ Dotween
-                    </p>
-                    <h4>More Info</h4>
-                    <ul>
-                        <li>
-                            <a href="https://khemka.itch.io/knock-knock-cozy">itch.io</a>
-                        </li>
-                    </ul>
-                </article>
-
-                <!-- it's Christmas?! -->
-                <article class="misc col-12-xsmall work-item">
-                    <h3>it's Christmas?!</h3>
-                    <img src="Photo/GameJam/IC_Bannder.png" width="100%" height="50%"/>
-                    <p>
-                        เข้าร่วมใน <a href="https://itch.io/jam/cozy-winter-jam-2023/">Cozy Winter Jam</a>
-                        และได้อันดับที่ 4 เกมนี้ผมทำระบบทั้งหมดในเกมและทำงานรวมกับ Game Designer
-                    </p>
-                    <h4>More Info</h4>
+            <!-- Knock Knock Cozy -->
+            <article class="misc col-12-xsmall work-item">
+                <h3>Knock Knock Cozy</h3>
+                <img src="Photo/GameJam/KKC_Banner.png" width="100%" height="50%"/>
+                <p>
+                    I participated in the <a href="https://itch.io/jam/cozy-fall-jam-2024/">Cozy Fall Jam 2024</a> and
+                    placed 8th. In this project, I developed all the game
+                    systems and enhanced the game feel using DOTween
+                </p>
+                <h4>More Info</h4>
+                <ul>
                     <li>
-                        <a href="https://soiiwa.itch.io/its-christmas">itch.io</a>
+                        <a href="https://khemka.itch.io/knock-knock-cozy">itch.io</a>
                     </li>
-                </article>
-                <article class="misc col-12-xsmall work-item">
-                    <h3>LifeForceTenka Clone</h3>
-                    <img src="Photo/LifeforceTenka3/LifeforceTenka.gif" alt="" width="100%" height="50%"/>
-                    <p>
-                        เกมนี้ถูกพัฒนาด้วย Unreal Engine 4 เรียนรู้เกี่ยวกับการทำเกมและใช้ Asset จาก
-                        <a href="https://www.udemy.com/course/unreal-engine-4-first-person-shooter-lifeforce-tenka-clone/">UE4
-                            FPS : Lifeforce Tenka Clone</a>
-                    </p>
-                    <h4>More Info</h4>
-                    <ul>
-                        <li>
-                            <a href="https://www.youtube.com/embed/nvUOdfEmhF8">Video</a>
-                        </li>
-                        <li>
-                            <a href="https://drive.google.com/file/d/1jUAo10378RUDgWna-9TlT5xg28kQ2mVv/view?usp=sharing">Download</a>
-                        </li>
-                    </ul>
-                </article>
-                <article class="misc col-12-xsmall work-item">
-                    <h3>Train To Hell - VR</h3>
-                    <img src="Photo/misc/Train.gif" width="100%" height="50%"/>
-                    <p>
-                        Train To Hell เป็นเกมที่พัฒนาให้กับเครื่อง VR ในเกมนี้มีคนทำทั้งหมด 2 คน
-                        ผมได้รับหน้าที่เป็นโปรแกรมเมอร์ที่เขียนระบบทั้งหมดภายในเกม
-                    </p>
-                    <h4>More Info</h4>
-                    <ul>
-                        <li>
-                            <a href="https://github.com/paisaningk/Train-To-Hell-VR-Game">Github</a>
-                        </li>
-                        <li>
-                            <a href="https://drive.google.com/file/d/1MMPZuKzfrfjQdhA-kk2B9OjlDzJym83_/view?usp=sharing">Download</a>
-                        </li>
-                    </ul>
-                </article>
+                </ul>
+            </article>
+
+            <!-- it's Christmas?! -->
+            <article class="misc col-12-xsmall work-item">
+                <h3>it's Christmas?!</h3>
+                <img src="Photo/GameJam/IC_Bannder.png" width="100%" height="50%"/>
+                <p>
+                    I participated in the <a href="https://itch.io/jam/cozy-winter-jam-2023/">Cozy Winter Jam 2023</a>
+                    and secured 4th place. In this project, I developed all
+                    game systems and collaborated closely with the Game Designer.
+                </p>
+                <h4>More Info</h4>
+                <li>
+                    <a href="https://soiiwa.itch.io/its-christmas">itch.io</a>
+                </li>
+            </article>
+            <article class="misc col-12-xsmall work-item">
+                <h3>LifeForceTenka Clone</h3>
+                <img src="Photo/LifeforceTenka3/LifeforceTenka.gif" alt="" width="100%" height="50%"/>
+                <p>
+                    LifeForceTenka Clone was developed using Unreal Engine. I learned to use Unreal Engine and used
+                    assets from <a
+                        href="https://www.udemy.com/course/unreal-engine-4-first-person-shooter-lifeforce-tenka-clone/">UE4
+                    FPS : Lifeforce Tenka Clone</a>
+                </p>
+                <h4>More Info</h4>
+                <ul>
+                    <li>
+                        <a href="https://www.youtube.com/embed/nvUOdfEmhF8">Video</a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1jUAo10378RUDgWna-9TlT5xg28kQ2mVv/view?usp=sharing">Download</a>
+                    </li>
+                </ul>
+            </article>
+            <article class="misc col-12-xsmall work-item">
+                <h3>Train To Hell - VR</h3>
+                <img src="Photo/misc/Train.gif" width="100%" height="50%"/>
+                <p>
+                    Train To Hell is a VR game developed by a team of two. I worked as the programmer, handling all
+                    system development within the game
+                </p>
+                <h4>More Info</h4>
+                <ul>
+                    <li>
+                        <a href="https://github.com/paisaningk/Train-To-Hell-VR-Game">Github</a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1MMPZuKzfrfjQdhA-kk2B9OjlDzJym83_/view?usp=sharing">Download</a>
+                    </li>
+                </ul>
+            </article>
 
 
-            </div>
         </div>
     </section>
 </div>
